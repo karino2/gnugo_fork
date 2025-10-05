@@ -1,0 +1,8 @@
+build
+engine/.deps
+Makefile
+*.o
+interface/.deps
+patterns/.deps
+sgf/.deps
+utils/.deps
