@@ -82,6 +82,7 @@ patterns/patterns.c
 patterns/transform.c
 )
 target_compile_definitions(patterns3 PRIVATE HAVE_CONFIG_H)
+target_compile_options(patterns3 PRIVATE -Wno-constant-conversion)
 target_include_directories(patterns3 PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/android
     ${CMAKE_CURRENT_SOURCE_DIR}/engine
